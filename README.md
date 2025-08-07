@@ -1,98 +1,75 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<p align="center">
+  <h1 align="center">OutfitCraft</h1>  
+</p>
 
-# Getting Started
+## Introduction
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+🎬 Release Calendar Feature — CEHPOINT App
+The Release Calendar Screen in the CEHPOINT React Native App offers users a visually interactive way to track upcoming movie releases using a calendar-based interface.
 
-## Step 1: Start Metro
+With seamless integration to The Movie Database (TMDB) API, the feature fetches upcoming movies, organizes them by release date, and displays them on a dynamic calendar. Users can explore each day's movie list, view detailed information including cast and genres, and interact with a smooth, modal-based UI.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+✨ Key Features
+📅 Calendar Integration
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Displays all upcoming movie release dates with marked dots
 
-```sh
-# Using npm
-npm start
+Automatically selects the first available date for quick viewing
 
-# OR using Yarn
-yarn start
+🎞️ Dynamic Movie List
+
+Movies are grouped by release date
+
+Users can tap any date to view all releases scheduled for that day
+
+🧾 Movie Details Modal
+
+View poster, title, overview, release date, top cast, and genres
+
+Persistent UI with graceful error handling and caching
+
+🔁 Offline-friendly
+
+Leverages local state and optimized fetch logic to minimize API calls
+
+🌙 Dark UI Theming
+
+Fully styled with dark theme and custom color palettes for modern, cinematic feel
+
+---
+
+## :camera_flash: Screenshots
+
+<div align="center" style="margin:auto;width:100%;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;">
+<img width="250px" margin="30px" style="margin:20px;" src="./readme/1.png"/>
+<img width="250px" margin="30px" style="margin:20px;" src="./readme/2.png"/>
+</div>
+<br>
+<br>
+
+## Development
+
+Make Sure you have [React Native development environment setup](https://reactnative.dev/docs/environment-setup)
+
+```bash
+# Install dependencies
+yarn install
+or
+npm install
 ```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
+```bash
+# Run android
 npm run android
-
-# OR using Yarn
+or
 yarn android
 ```
 
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
+```bash
+# Run ios
 npm run ios
-
-# OR using Yarn
+or
 yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# CinemaCalendar
+# CEHPOINT-App
