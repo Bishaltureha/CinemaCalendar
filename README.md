@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">OutfitCraft</h1>  
+  <h1 align="center">Cinema Calendar</h1>  
 </p>
 
 ## Introduction
@@ -71,5 +71,3 @@ npm run ios
 or
 yarn ios
 ```
-
-# CEHPOINT-App
